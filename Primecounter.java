@@ -63,15 +63,6 @@ public class Primecounter
                                 numberOfFilesUsed = s.nextInt();
 
                         }
-                        System.out.println("What base would you like to use?");
-
-                        if(s.hasNextInt())
-                            base = s.nextInt();
-                        while(base < 3){
-                            System.out.println("Please select a number greater than 2.");
-                            if(s.hasNextInt())
-                                base = s.nextInt();
-                        }
                         System.out.println();
                         System.out.println("What format would you like the your results?");
                         System.out.println("1) Output to a file (Normal).");
@@ -314,7 +305,7 @@ public class Primecounter
                                 int kpow = (int) Math.pow(4,k);
                                 str = str + String.valueOf(revCases(((j%kpow) - j%(kpow/4))/(kpow/4)) + " --> ");
                             }
-                            str = str + revCases(j%4);
+                            str = str + revCases(j%4) + "\n";
 
                             maxPatterns.add(str);
                             writer.append(str);
@@ -334,8 +325,6 @@ public class Primecounter
                 writer.append("\nDepth & Count      & Percent   & Pattern\n\\hline");
                 for(int i = 0; i < depth;i++){
                     for(int j = 0; j < Math.pow(4,i);j++){
-                        writer.append("\n");
-
                         int pow = (int) Math.pow(4, i);
 
                         double max = Collections.max(percents.get(i));
@@ -345,7 +334,7 @@ public class Primecounter
                                 int kpow = (int) Math.pow(4,k);
                                 str = str + String.valueOf(revCases(((j%kpow) - j%(kpow/4))/(kpow/4)) + " $\\rightarrow$ ");
                             }
-                            str = str + revCases(j%4) + "\\\\";
+                            str = str + revCases(j%4) + "\\\\\n";
 
                             writer.append(str);
                         }
