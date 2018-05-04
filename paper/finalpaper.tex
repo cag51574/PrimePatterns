@@ -32,7 +32,7 @@
 \begin{document}
 \maketitle
 \large
-(Move this to end!!!!!!!!) The code used in this paper will be submitted with the project and can also be found at: https://github.com/cag51574/PrimePatterns\\ Notice that you must have java 8 to run this project.\\\\
+The code used in this paper will be submitted with the project and can also be found at: https://github.com/cag51574/PrimePatterns\\ Notice that you must have java 8 to run this project.\\\\
 For this paper, I examine the relation of prime numbers to the primes that occur after it. 
 I seek to identify interesting patterns in relations. 
 This paper is based after the research of Dr. 
@@ -45,7 +45,27 @@ Interestingly, Dr Soundararajan found this to not be the case at all.
 Infact, the final digit of a prime number seems to directly influence the final digit of a prime number that occures next.
 In this paper, I check the results he finds and attempt to delve deeper into this phenomenon in an attempt to find additional interesting patterns.\\\\
 \indent
-First we check the results that Dr. Soundararajan finds relating to the final digits of prime distributions. 
+First we check the results that Dr. Soundararajan finds relating to the final digits of prime distributions. We can see from the following chart that Dr. Soundararajan's results for a depth of 2 in base 10 match my own. Unlike him, I used total percentages instead of percents based on each section of 1's, 3's, 7's and 9's.\\\\
+\begin{tabular} { l l l l }
+Depth & Count      & Percent   & Pattern\\
+\hline
+    2 &     446808 &   4.4681\% & 1 $\rightarrow$ 1\\
+    2 &     756071 &   7.5607\% & 1 $\rightarrow$ 3\\
+    2 &     769923 &   7.6992\% & 1 $\rightarrow$ 7\\
+    2 &     526954 &   5.2695\% & 1 $\rightarrow$ 9\\
+    2 &     593195 &   5.9320\% & 3 $\rightarrow$ 1\\
+    2 &     422302 &   4.2230\% & 3 $\rightarrow$ 3\\
+    2 &     714795 &   7.1480\% & 3 $\rightarrow$ 7\\
+    2 &     769915 &   7.6992\% & 3 $\rightarrow$ 9\\
+    2 &     639384 &   6.3938\% & 7 $\rightarrow$ 1\\
+    2 &     681759 &   6.8176\% & 7 $\rightarrow$ 3\\
+    2 &     422289 &   4.2229\% & 7 $\rightarrow$ 7\\
+    2 &     756851 &   7.5685\% & 7 $\rightarrow$ 9\\
+    2 &     820368 &   8.2037\% & 9 $\rightarrow$ 1 MAX \\  
+    2 &     640076 &   6.4008\% & 9 $\rightarrow$ 3\\
+    2 &     593275 &   5.9328\% & 9 $\rightarrow$ 7\\
+    2 &     446032 &   4.4603\% & 9 $\rightarrow$ 9\\
+\end{tabular}\\\\
 \\\\\indent
 Next we look at further patters to see if there are some patterns the the primes that will always be more common than others.
 When analyzing the first 10 million primes in base 10, the max patterns at different depths are:\\\\
@@ -106,7 +126,6 @@ When analyzing the first 10 million primes in base 10, the max patterns at diffe
   7 & 178017 & 0.0178\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\
   7 & 177663 & 0.0178\% & 3 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\
   7 & 177647 & 0.0178\% & 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\
-  0
   \end{tabular}
 
 

@@ -1,0 +1,1052 @@
+Prime Analysis Results
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &   10000000 & 100.0000\% & 1\\\\
+    1 &    2500283 &  25.0028\% & 7\\\\
+    2 &     820368 &   8.2037\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &     256932 &   2.5693\% & 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    4 &      81324 &   0.8132\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &      24413 &   0.2441\% & 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    6 &       7872 &   0.0787\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &       2521 &   0.0252\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &        758 &   0.0076\% & 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    9 &        245 &   0.0025\% & 3 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &   20000000 & 100.0000\% & 1\\\\
+    1 &    5000270 &  25.0014\% & 3\\\\
+    2 &    1627163 &   8.1358\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &     504304 &   2.5215\% & 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    4 &     158093 &   0.7905\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &      47313 &   0.2366\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      15096 &   0.0755\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &       4687 &   0.0234\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       1382 &   0.0069\% & 3 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3\\\\
+end(tabular)\\\\
+    9 &        442 &   0.0022\% & 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &   30000000 & 100.0000\% & 1\\\\
+    1 &    7500846 &  25.0028\% & 7\\\\
+    2 &    2429084 &   8.0969\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &     749094 &   2.4970\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &     233736 &   0.7791\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &      69691 &   0.2323\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      22056 &   0.0735\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &       6798 &   0.0227\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       2018 &   0.0067\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3\\\\
+end(tabular)\\\\
+    9 &        656 &   0.0022\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &   40000000 & 100.0000\% & 1\\\\
+    1 &   10000546 &  25.0014\% & 7\\\\
+    2 &    3227815 &   8.0695\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &     992008 &   2.4800\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &     308255 &   0.7706\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &      91663 &   0.2292\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      28972 &   0.0724\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &       8845 &   0.0221\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       2629 &   0.0066\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    9 &        848 &   0.0021\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &   50000000 & 100.0000\% & 1\\\\
+    1 &   12500619 &  25.0012\% & 7\\\\
+    2 &    4024863 &   8.0497\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    1233912 &   2.4678\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &     382594 &   0.7652\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     113667 &   0.2273\% & 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    6 &      35870 &   0.0717\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      10937 &   0.0219\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       3228 &   0.0065\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       1041 &   0.0021\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &   60000000 & 100.0000\% & 1\\\\
+    1 &   15000553 &  25.0009\% & 7\\\\
+    2 &    4820498 &   8.0342\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    1474218 &   2.4570\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &     456088 &   0.7601\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     135263 &   0.2254\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      42658 &   0.0711\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      12949 &   0.0216\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       3844 &   0.0064\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       1222 &   0.0020\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &   70000000 & 100.0000\% & 1\\\\
+    1 &   17500883 &  25.0013\% & 3\\\\
+    2 &    5614886 &   8.0213\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    1714016 &   2.4486\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &     529252 &   0.7561\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     156671 &   0.2238\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      49275 &   0.0704\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      14997 &   0.0214\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       4402 &   0.0063\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    9 &       1371 &   0.0020\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &   80000000 & 100.0000\% & 1\\\\
+    1 &   20000940 &  25.0012\% & 3\\\\
+    2 &    6407180 &   8.0090\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    1953917 &   2.4424\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &     602532 &   0.7532\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     178320 &   0.2229\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      55919 &   0.0699\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      16979 &   0.0212\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       5009 &   0.0063\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    9 &       1564 &   0.0020\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &   90000000 & 100.0000\% & 1\\\\
+    1 &   22500816 &  25.0009\% & 3\\\\
+    2 &    7200247 &   8.0003\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    2191939 &   2.4355\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &     674776 &   0.7498\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     199467 &   0.2216\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      62390 &   0.0693\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      18908 &   0.0210\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       5590 &   0.0062\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    9 &       1732 &   0.0019\% & 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+    9 &       1732 &   0.0019\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  100000000 & 100.0000\% & 1\\\\
+    1 &   25000402 &  25.0004\% & 7\\\\
+    2 &    7991431 &   7.9914\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    2429892 &   2.4299\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &     747040 &   0.7470\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     220752 &   0.2208\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      68967 &   0.0690\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      20923 &   0.0209\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       6162 &   0.0062\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    9 &       1933 &   0.0019\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  110000000 & 100.0000\% & 1\\\\
+    1 &   27500299 &  25.0003\% & 3\\\\
+    2 &    8783135 &   7.9847\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    2667867 &   2.4253\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &     818958 &   0.7445\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     241947 &   0.2200\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      75516 &   0.0687\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      22849 &   0.0208\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       6752 &   0.0061\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       2099 &   0.0019\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  120000000 & 100.0000\% & 1\\\\
+    1 &   30001099 &  25.0009\% & 7\\\\
+    2 &    9573379 &   7.9778\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    2905967 &   2.4216\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &     891272 &   0.7427\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     263242 &   0.2194\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      82151 &   0.0685\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      24823 &   0.0207\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       7289 &   0.0061\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       2284 &   0.0019\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  130000000 & 100.0000\% & 1\\\\
+    1 &   32500688 &  25.0005\% & 3\\\\
+    2 &   10362835 &   7.9714\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    3142299 &   2.4172\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &     962764 &   0.7406\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     284170 &   0.2186\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      88568 &   0.0681\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      26758 &   0.0206\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       7858 &   0.0060\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       2439 &   0.0019\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  140000000 & 100.0000\% & 1\\\\
+    1 &   35000874 &  25.0006\% & 3\\\\
+    2 &   11151754 &   7.9655\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    3379399 &   2.4139\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1034869 &   0.7392\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     305349 &   0.2181\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &      95194 &   0.0680\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      28766 &   0.0205\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       8441 &   0.0060\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       2626 &   0.0019\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  150000000 & 100.0000\% & 1\\\\
+    1 &   37501254 &  25.0008\% & 3\\\\
+    2 &   11940433 &   7.9603\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    3615066 &   2.4100\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1106006 &   0.7373\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     326236 &   0.2175\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     101664 &   0.0678\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      30707 &   0.0205\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       9011 &   0.0060\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       2811 &   0.0019\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  160000000 & 100.0000\% & 1\\\\
+    1 &   40001301 &  25.0008\% & 3\\\\
+    2 &   12728590 &   7.9554\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    3851774 &   2.4074\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1177096 &   0.7357\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     347315 &   0.2171\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     108071 &   0.0675\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      32676 &   0.0204\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &       9591 &   0.0060\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       2973 &   0.0019\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  170000000 & 100.0000\% & 1\\\\
+    1 &   42501527 &  25.0009\% & 3\\\\
+    2 &   13518030 &   7.9518\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    4088532 &   2.4050\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1248934 &   0.7347\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     368370 &   0.2167\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     114538 &   0.0674\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      34627 &   0.0204\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      10187 &   0.0060\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       3152 &   0.0019\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  180000000 & 100.0000\% & 1\\\\
+    1 &   45001282 &  25.0007\% & 7\\\\
+    2 &   14306078 &   7.9478\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    4325036 &   2.4028\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1320406 &   0.7336\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     389312 &   0.2163\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     121040 &   0.0672\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      36545 &   0.0203\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      10758 &   0.0060\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       3330 &   0.0019\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  190000000 & 100.0000\% & 1\\\\
+    1 &   47501728 &  25.0009\% & 7\\\\
+    2 &   15093132 &   7.9438\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    4560440 &   2.4002\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1391807 &   0.7325\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     410038 &   0.2158\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     127430 &   0.0671\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      38446 &   0.0202\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      11309 &   0.0060\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       3502 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  200000000 & 100.0000\% & 1\\\\
+    1 &   50001182 &  25.0006\% & 7\\\\
+    2 &   15880574 &   7.9403\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    4796407 &   2.3982\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1463236 &   0.7316\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     431033 &   0.2155\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     133892 &   0.0669\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      40419 &   0.0202\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      11905 &   0.0060\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       3684 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  210000000 & 100.0000\% & 1\\\\
+    1 &   52500579 &  25.0003\% & 7\\\\
+    2 &   16666855 &   7.9366\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    5031297 &   2.3959\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1533880 &   0.7304\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     451723 &   0.2151\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     140294 &   0.0668\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      42284 &   0.0201\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      12464 &   0.0059\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       3863 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  220000000 & 100.0000\% & 1\\\\
+    1 &   55001603 &  25.0007\% & 7\\\\
+    2 &   17452704 &   7.9330\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    5266168 &   2.3937\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1604606 &   0.7294\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     472524 &   0.2148\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     146751 &   0.0667\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      44217 &   0.0201\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      13017 &   0.0059\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       4031 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  230000000 & 100.0000\% & 1\\\\
+    1 &   57501573 &  25.0007\% & 7\\\\
+    2 &   18238242 &   7.9297\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    5499906 &   2.3913\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1675078 &   0.7283\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     493061 &   0.2144\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     152945 &   0.0665\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      46138 &   0.0201\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      13576 &   0.0059\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       4210 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  240000000 & 100.0000\% & 1\\\\
+    1 &   60000835 &  25.0003\% & 7\\\\
+    2 &   19025048 &   7.9271\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    5734378 &   2.3893\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1745758 &   0.7274\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     513671 &   0.2140\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     159261 &   0.0664\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      48017 &   0.0200\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      14144 &   0.0059\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       4359 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  250000000 & 100.0000\% & 1\\\\
+    1 &   62501181 &  25.0005\% & 7\\\\
+    2 &   19809602 &   7.9238\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    5968431 &   2.3874\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1816181 &   0.7265\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     534402 &   0.2138\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     165530 &   0.0662\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      50003 &   0.0200\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      14722 &   0.0059\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       4524 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  260000000 & 100.0000\% & 1\\\\
+    1 &   65001342 &  25.0005\% & 7\\\\
+    2 &   20594726 &   7.9210\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    6202292 &   2.3855\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1887145 &   0.7258\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     555033 &   0.2135\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     171888 &   0.0661\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      51851 &   0.0199\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      15294 &   0.0059\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       4694 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  270000000 & 100.0000\% & 1\\\\
+    1 &   67501332 &  25.0005\% & 7\\\\
+    2 &   21379207 &   7.9182\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    6436748 &   2.3840\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    1957468 &   0.7250\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     575953 &   0.2133\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     178181 &   0.0660\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      53660 &   0.0199\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      15840 &   0.0059\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       4866 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  280000000 & 100.0000\% & 1\\\\
+    1 &   70000702 &  25.0003\% & 7\\\\
+    2 &   22163645 &   7.9156\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    6670726 &   2.3824\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2027534 &   0.7241\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     596605 &   0.2131\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     184593 &   0.0659\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      55599 &   0.0199\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      16365 &   0.0058\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       5040 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  290000000 & 100.0000\% & 1\\\\
+    1 &   72501625 &  25.0006\% & 3\\\\
+    2 &   22947234 &   7.9128\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    6904836 &   2.3810\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2097814 &   0.7234\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     617252 &   0.2128\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     190902 &   0.0658\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      57490 &   0.0198\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      16907 &   0.0058\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       5230 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  300000000 & 100.0000\% & 1\\\\
+    1 &   75002108 &  25.0007\% & 3\\\\
+    2 &   23732303 &   7.9108\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    7139176 &   2.3797\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2167936 &   0.7226\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     637927 &   0.2126\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     197082 &   0.0657\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      59362 &   0.0198\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      17438 &   0.0058\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       5396 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  310000000 & 100.0000\% & 1\\\\
+    1 &   77502095 &  25.0007\% & 3\\\\
+    2 &   24515839 &   7.9083\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    7373003 &   2.3784\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2238369 &   0.7221\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     658298 &   0.2124\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     203267 &   0.0656\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      61182 &   0.0197\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      17996 &   0.0058\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       5572 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  320000000 & 100.0000\% & 1\\\\
+    1 &   80002093 &  25.0007\% & 3\\\\
+    2 &   25299412 &   7.9061\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    7606553 &   2.3770\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2308505 &   0.7214\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     678942 &   0.2122\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     209563 &   0.0655\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      63061 &   0.0197\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      18518 &   0.0058\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       5729 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  330000000 & 100.0000\% & 1\\\\
+    1 &   82501709 &  25.0005\% & 3\\\\
+    2 &   26081902 &   7.9036\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    7839072 &   2.3755\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2378267 &   0.7207\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     699584 &   0.2120\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     215849 &   0.0654\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      65020 &   0.0197\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      19079 &   0.0058\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       5902 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  340000000 & 100.0000\% & 1\\\\
+    1 &   85002375 &  25.0007\% & 3\\\\
+    2 &   26864917 &   7.9014\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    8072121 &   2.3742\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2448125 &   0.7200\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     720060 &   0.2118\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     222113 &   0.0653\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      66921 &   0.0197\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      19595 &   0.0058\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       6080 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  350000000 & 100.0000\% & 1\\\\
+    1 &   87502128 &  25.0006\% & 3\\\\
+    2 &   27647944 &   7.8994\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    8305190 &   2.3729\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2518269 &   0.7195\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     740358 &   0.2115\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     228443 &   0.0653\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      68759 &   0.0196\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      20145 &   0.0058\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       6239 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  360000000 & 100.0000\% & 1\\\\
+    1 &   90002554 &  25.0007\% & 3\\\\
+    2 &   28430042 &   7.8972\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    8537989 &   2.3717\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2587986 &   0.7189\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     760864 &   0.2114\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     234610 &   0.0652\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      70587 &   0.0196\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      20701 &   0.0058\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       6413 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  370000000 & 100.0000\% & 1\\\\
+    1 &   92501665 &  25.0005\% & 3\\\\
+    2 &   29212384 &   7.8952\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    8770575 &   2.3704\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2658066 &   0.7184\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     781127 &   0.2111\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     240885 &   0.0651\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      72515 &   0.0196\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      21275 &   0.0058\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       6600 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  380000000 & 100.0000\% & 1\\\\
+    1 &   95001519 &  25.0004\% & 3\\\\
+    2 &   29994736 &   7.8934\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    9002959 &   2.3692\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2727989 &   0.7179\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     801564 &   0.2109\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     247182 &   0.0650\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      74441 &   0.0196\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      21823 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       6741 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  390000000 & 100.0000\% & 1\\\\
+    1 &   97501504 &  25.0004\% & 3\\\\
+    2 &   30776915 &   7.8915\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    9234955 &   2.3679\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2797407 &   0.7173\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     822091 &   0.2108\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     253362 &   0.0650\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      76283 &   0.0196\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      22390 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       6909 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  400000000 & 100.0000\% & 1\\\\
+    1 &  100001560 &  25.0004\% & 3\\\\
+    2 &   31558177 &   7.8895\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    9466772 &   2.3667\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2867251 &   0.7168\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     842441 &   0.2106\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     259597 &   0.0649\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      78133 &   0.0195\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      22925 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       7061 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  410000000 & 100.0000\% & 1\\\\
+    1 &  102501523 &  25.0004\% & 7\\\\
+    2 &   32340823 &   7.8880\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    9699033 &   2.3656\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    2936775 &   0.7163\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     863039 &   0.2105\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     265833 &   0.0648\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      79996 &   0.0195\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      23492 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       7217 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  420000000 & 100.0000\% & 1\\\\
+    1 &  105001384 &  25.0003\% & 7\\\\
+    2 &   33122281 &   7.8863\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &    9931263 &   2.3646\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    3006276 &   0.7158\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     883391 &   0.2103\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     271989 &   0.0648\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      81828 &   0.0195\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      24038 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       7365 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  430000000 & 100.0000\% & 1\\\\
+    1 &  107501685 &  25.0004\% & 3\\\\
+    2 &   33903796 &   7.8846\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &   10163490 &   2.3636\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    3076001 &   0.7153\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     904056 &   0.2102\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     278259 &   0.0647\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      83682 &   0.0195\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      24592 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       7529 &   0.0018\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  440000000 & 100.0000\% & 1\\\\
+    1 &  110002513 &  25.0006\% & 3\\\\
+    2 &   34685171 &   7.8830\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &   10395314 &   2.3626\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    3145594 &   0.7149\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     924601 &   0.2101\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     284583 &   0.0647\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      85556 &   0.0194\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      25132 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       7685 &   0.0017\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  450000000 & 100.0000\% & 1\\\\
+    1 &  112502251 &  25.0005\% & 3\\\\
+    2 &   35466203 &   7.8814\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &   10626350 &   2.3614\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    3214810 &   0.7144\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     944616 &   0.2099\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     290686 &   0.0646\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      87390 &   0.0194\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      25659 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       7846 &   0.0017\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  460000000 & 100.0000\% & 1\\\\
+    1 &  115002134 &  25.0005\% & 3\\\\
+    2 &   36247225 &   7.8798\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &   10858543 &   2.3606\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    3284379 &   0.7140\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     964969 &   0.2098\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     297012 &   0.0646\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      89246 &   0.0194\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      26217 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       8019 &   0.0017\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  470000000 & 100.0000\% & 1\\\\
+    1 &  117501283 &  25.0003\% & 7\\\\
+    2 &   37028401 &   7.8784\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &   11089998 &   2.3596\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    3353772 &   0.7136\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &     985102 &   0.2096\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     303112 &   0.0645\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      91101 &   0.0194\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      26753 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       8188 &   0.0017\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  480000000 & 100.0000\% & 1\\\\
+    1 &  120001235 &  25.0003\% & 7\\\\
+    2 &   37808828 &   7.8768\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &   11321704 &   2.3587\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    3423069 &   0.7131\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &    1005287 &   0.2094\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     309178 &   0.0644\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      92952 &   0.0194\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      27278 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       8343 &   0.0017\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  490000000 & 100.0000\% & 1\\\\
+    1 &  122501254 &  25.0003\% & 3\\\\
+    2 &   38589424 &   7.8754\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &   11553566 &   2.3579\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    3492696 &   0.7128\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &    1025415 &   0.2093\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     315194 &   0.0643\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      94742 &   0.0193\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      27798 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       8501 &   0.0017\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+begin(tabular) { l l l r }
+Depth & Count      & Percent   & Pattern
+\hline
+    0 &  500000000 & 100.0000\% & 1\\\\
+    1 &  125002060 &  25.0004\% & 7\\\\
+    2 &   39369475 &   7.8739\% & 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    3 &   11785061 &   2.3570\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    4 &    3562197 &   0.7124\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    5 &    1045672 &   0.2091\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    6 &     321442 &   0.0643\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    7 &      96653 &   0.0193\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\\\
+end(tabular)\\\\
+    8 &      28313 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\
+    9 &       8649 &   0.0017\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\\\
+end(tabular)\\\\

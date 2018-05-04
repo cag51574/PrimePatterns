@@ -314,15 +314,13 @@ public class Primecounter
                                 int kpow = (int) Math.pow(4,k);
                                 str = str + String.valueOf(revCases(((j%kpow) - j%(kpow/4))/(kpow/4)) + " --> ");
                             }
-                            str = str + revCases(j%4);
+                            str = str + revCases(j%4) + "\n";
 
                             maxPatterns.add(str);
                             writer.append(str);
                         }
                     }
-                    writer.append("\n");
                 }
-                writer.append("\n\n");
             }catch(IOException ex){
                 System.err.println("Caught error message: " + ex.getMessage());
             }
