@@ -66,8 +66,10 @@ Depth & Count      & Percent   & Pattern\\
     2 &     593275 &   5.9328\% & 9 $\rightarrow$ 7\\
     2 &     446032 &   4.4603\% & 9 $\rightarrow$ 9\\
 \end{tabular}\\\\
+What I find interesting about this is that the final digits of the primes in base 10 are very evenly distributed. The intuitive idea would be that each prime would be independent of any of the others when you get to large numbers. This finding by Dr. Soundararajan disproves this and shows a very counter intuitive notion that each prime influences the prime that comes after. The final digit of the primes tend to oscillate. This pattern is interesting and made me wonder if there are possilby patterns of final digits that occur with a larger frequency than others.
 \\\\\indent
 Next we look at further patters to see if there are some patterns the the primes that will always be more common than others.
+The code provided can analyze the first 2 billion primes up to a specified depth and provide the most common final digit patters that occur.
 When analyzing the first 10 million primes in base 10, the max patterns at different depths are:\\\\
 \begin{tabular}{ l l l r }
   Depth & Number & Percent & Pattern \\
@@ -126,8 +128,22 @@ When analyzing the first 10 million primes in base 10, the max patterns at diffe
   7 & 178017 & 0.0178\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\
   7 & 177663 & 0.0178\% & 3 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\
   7 & 177647 & 0.0178\% & 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\
-  \end{tabular}
-
+  \end{tabular}\\\\
+  These results are interesting because it shows that there are infact some patterns that occur with much more regularity than others. The most common patterns are all very similar. They all oscillate as much as possilbe at every digit. What interests me is why some patterns that appear almost identical show up with a larger frequency. 
+\begin{tabular} { l l l r }
+Depth & Count      & Percent   & Pattern\\
+\hline
+    0 &  500000000 & 100.0000\% & 1\\
+    1 &  125002060 &  25.0004\% & 7\\
+    2 &   39369475 &   7.8739\% & 9 $\rightarrow$ 1\\
+    3 &   11785061 &   2.3570\% & 3 $\rightarrow$ 9 $\rightarrow$ 1\\
+    4 &    3562197 &   0.7124\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\
+    5 &    1045672 &   0.2091\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\
+    6 &     321442 &   0.0643\% & 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\
+    7 &      96653 &   0.0193\% & 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7\\
+    8 &      28313 &   0.0057\% & 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\
+    9 &       8649 &   0.0017\% & 3 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 7 $\rightarrow$ 9 $\rightarrow$ 1 $\rightarrow$ 3 $\rightarrow$ 9 $\rightarrow$ 1\\
+\end{tabular}\\\\
 
 \end{document}      
 %%% Local Variables:

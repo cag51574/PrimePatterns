@@ -314,7 +314,7 @@ public class Primecounter
                                 int kpow = (int) Math.pow(4,k);
                                 str = str + String.valueOf(revCases(((j%kpow) - j%(kpow/4))/(kpow/4)) + " --> ");
                             }
-                            str = str + revCases(j%4) + "\n";
+                            str = str + revCases(j%4);
 
                             maxPatterns.add(str);
                             writer.append(str);
@@ -330,7 +330,7 @@ public class Primecounter
             try (Writer writer = new BufferedWriter(
                         new FileWriter(outputFile, true))) {
                 // Print total counted
-                writer.append("\nbegin(tabular) { l l l r }");
+                writer.append("\n\\begin{tabular} { l l l r }");
                 writer.append("\nDepth & Count      & Percent   & Pattern\n\\hline");
                 for(int i = 0; i < depth;i++){
                     for(int j = 0; j < Math.pow(4,i);j++){
@@ -345,16 +345,14 @@ public class Primecounter
                                 int kpow = (int) Math.pow(4,k);
                                 str = str + String.valueOf(revCases(((j%kpow) - j%(kpow/4))/(kpow/4)) + " $\\rightarrow$ ");
                             }
-                            str = str + revCases(j%4) + "\\\\\\\\";
+                            str = str + revCases(j%4) + "\\\\";
 
                             writer.append(str);
                         }
                     }
-                    if(i>1)
-                        writer.append("\nend(tabular)\\\\\\\\\n");
 
                 }
-                writer.append("\n\n");
+                writer.append("\n\\end{tabular}\\\\\\\\\n");
             }catch(IOException ex){
                 System.err.println("Caught error message: " + ex.getMessage());
             }
@@ -446,7 +444,7 @@ public class Primecounter
                         new FileWriter(outputFile, true))) {
                 // Print total counted
                 for(int i = 2; i < depth;i++){
-                    writer.append("\nbegin(tabular) { l l l r }");
+                    writer.append("\n\\begin{tabular} { l l l r }");
                     writer.append("\nDepth & Count      & Percent   & Pattern\n\\hline\n");
                     for(int j = 0; j < Math.pow(4,i);j++){
                         int pow = (int) Math.pow(4, i);
@@ -466,7 +464,7 @@ public class Primecounter
                         }
 
                     }
-                    writer.append("\nend(tabular)\\\\\\\\\n");
+                    writer.append("\n\\end{tabular}\\\\\\\\\n");
                 }
 
 
@@ -534,7 +532,7 @@ public class Primecounter
                 // Print total counted
                 for(int i = 0; i < depth;i++){
                     if(i>1)
-                        writer.append("\nbegin(tabular) { l l l r }");
+                        writer.append("\n\\begin{tabular} { l l l r }");
                         writer.append("\nDepth & Count      & Percent   & Pattern\n\\hline");
                     for(int j = 0; j < Math.pow(4,i);j++){
                         writer.append("\n");
@@ -553,7 +551,7 @@ public class Primecounter
                                 int kpow = (int) Math.pow(4,k);
                                 str = str + String.valueOf(revCases(((j%kpow) - j%(kpow/4))/(kpow/4)) + " $\\rightarrow$ ");
                             }
-                            str = str + revCases(j%4) + "\\\\\\\\";
+                            str = str + revCases(j%4) + "\\\\";
 
                             writer.append(str);
                             if (percents.get(i).get(j) == max){
@@ -563,7 +561,7 @@ public class Primecounter
                         }
                     }
                     if(i>1)
-                        writer.append("\nend(tabular)\\\\\\\\\n");
+                        writer.append("\n\\end{tabular}\\\\\\\\\n");
 
                 }
                 writer.append("\n\n");
